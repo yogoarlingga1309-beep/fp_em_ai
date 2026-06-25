@@ -58,17 +58,13 @@ if "messages" not in st.session_state:
 if not st.session_state.messages:
     st.info(
         "**Example questions you can ask:**\n\n"
-    "- What will students have after graduating?\n"
-    "- How is safety handled if an incident occurs at school?\n"
-    "- What are the procedures for handling complaints from parents?\n"
-    "- What are the consequences for employees who engage in gratification?\n"
-    "- What is the procedure for requesting leave as an employee?\n\n"
-    "**Contoh pertanyaan dalam Bahasa Indonesia:**\n"
-    "- Apa yang akan didapatkan siswa setelah lulus?\n"
-    "- Bagaimana penanganan keamanan jika terjadi insiden di sekolah?\n"
-    "- Apa prosedur penanganan pengaduan dari orang tua?\n"
-    "- Apa konsekuensi bagi karyawan yang terlibat gratifikasi?\n"
-    "- Bagaimana prosedur pengajuan cuti sebagai karyawan?"
+        "- What will students have after graduating?\n"
+        "- How is safety handled if an incident occurs at school?\n"
+        "- What are the procedures for handling complaints from parents?\n\n"
+        "**Contoh pertanyaan dalam Bahasa Indonesia:**\n"
+        "- Apa yang akan didapatkan siswa setelah lulus?\n"
+        "- Bagaimana penanganan keamanan jika terjadi insiden di sekolah?\n"
+        "- Apa prosedur penanganan pengaduan dari orang tua?"
     )
 
 # ── Tampilkan Riwayat Chat ─────────────────────────────────────────────

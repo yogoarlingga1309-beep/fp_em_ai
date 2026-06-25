@@ -85,7 +85,7 @@ def build_rag_pipeline():
     Membangun RAG pipeline lengkap dari nol.
 
     Mengembalikan:
-    - chain: objek Retrieval QA yang siap menerima pertanyaan
+    - chain: objek RetrievalQA yang siap menerima pertanyaan
     - num_chunks: jumlah potongan teks yang berhasil diindeks
     """
     
@@ -107,7 +107,6 @@ def build_rag_pipeline():
     # untuk dikirim ke LLM — lebih efisien dan akurat.
     #
     # separators: urutan prioritas pemisah saat memotong
-    # "\n---\n" = garis pemisah antar produk di katalog kita
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=CHUNK_SIZE,
         chunk_overlap=CHUNK_OVERLAP,
@@ -154,7 +153,7 @@ def build_rag_pipeline():
     # ------------------------------------------------------------------
     # Groq adalah platform yang menyediakan akses ke LLM dengan
     # kecepatan inferensi sangat tinggi.
-    # Temperature 0.5 = jawaban relatif konsisten, faktual, dan sedikit variasi
+    # Temperature 0.4 = jawaban relatif konsisten, faktual, dan sedikit variasi
     llm = ChatGroq(
         model=LLM_MODEL,
         temperature=0.4,

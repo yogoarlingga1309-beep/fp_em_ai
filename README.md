@@ -1,25 +1,25 @@
 # EM_Rules
 
-Chatbot AI untuk tim compliance yang membantu menjawab pertanyaan terkait kebijakan, regulasi, dan prosedur internal yayasan/sekolah. Dibangun menggunakan teknologi RAG (Retrieval-Augmented Generation) dengan LangChain.
+An AI chatbot for compliance teams that helps answer questions about foundation/school policies, regulations, and internal procedures. Built using RAG (Retrieval-Augmented Generation) technology with LangChain.
 
-## Arsitektur Sistem
+## System Architecture
 
 ```
-Katalog Produk (TXT)
+   Rules (TXT)
        |
-  Document Loader        <- Membaca file katalog
+  Document Loader        <- Read file
        |
-  Text Splitter          <- Memotong dokumen jadi chunk kecil
+  Text Splitter          <- Cut the document to a little part
        |
-HuggingFace Embeddings   <- Mengubah teks jadi vektor angka
+HuggingFace Embeddings   <- Change vektor teks to numeric
        |
-  FAISS Vector Store     <- Menyimpan vektor untuk pencarian cepat
+  FAISS Vector Store     <- Save vector to quick search
        |
-    Retriever            <- Mencari chunk paling relevan saat ada query
+    Retriever            <- Search a good chunk with query
        |
- Groq LLM (Llama 3.3)   <- Merangkai jawaban dari chunk yang diambil
+ Groq LLM (Llama 3.3)   <- Constructing answers from the captured chunks
        |
-  Jawaban Final
+  Final Answered
 ```
 
 ## Tech Stack
@@ -40,23 +40,23 @@ pip install -r requirements.txt
 
 ### 2. Buat file .env
 
-Salin file `.env.example` dan rename menjadi `.env`:
+Copy file `.env.example` and rename to `.env`:
 
 ```bash
 cp .env.example .env
 ```
 
-Lalu isi API key Groq di file `.env`:
+Next fill API key Groq in file `.env`:
 
 ```
 GROQ_API_KEY=gsk_xxxxxxxxxxxxxxxxxxxx
 ```
 
-Cara mendapatkan API key:
-1. Buka https://console.groq.com
-2. Daftar atau login
-3. Klik "Create API Key"
-4. Salin dan tempelkan ke file .env
+How to get an API key:
+1. Go to https://console.groq.com
+2. Register or log in
+3. Click "Create API Key"
+4. Copy and paste it into the .env file
 
 ### 3. Jalankan aplikasi
 
@@ -64,7 +64,7 @@ Cara mendapatkan API key:
 streamlit run app.py
 ```
 
-Buka browser dan akses http://localhost:8501
+Open browser and access http://localhost:8501
 
 ## Struktur Project
 
@@ -89,28 +89,32 @@ em_ai/
     └── 05_occupational_health_and_safety_policy.txt <- Kebijakan K3
     └── 06_technology_usage_and_cybersecurity_policy.txt 
     <- Keamanan siber
-    └── 07_complaint_and_grievance_handling_policy.txt <- Penanganan 
-    complain
+    └── 07_complaint_and_grievance_handling_policy.txt <- Penanganan complain
+    └── rules.txt <- Gabungan dataset yang digunakan
 
 ```
 
-## Ruang Lingkup Kebijakan
+## Policy Scope
 
-1. Kebijakan Privasi dan Keamanan Data
-2. Kebijakan Akademik/SKL
-3. Kebijakan Anti Korupsi dan Gratifikasi
-4. Kebijakan Partnership 
-5. Kesehatan dan Keselamatan Kerja (K3)
-6. Kebijakan Keamanan Siber
-7. Kebijakan Penanganan Komplain
+1. Privacy and Data Security Policy
+2. Academic Policy/SKL
+3. Anti-Corruption and Gratification Policy
+4. Partnership Policy
+5. Occupational Health and Safety (K3)
+6. Cybersecurity Policy
+7. Complaint Handling Policy
 
 ## Contoh Pertanyaan
 
-- "Apa yang akan dimiliki peserta didik setelah lulus?"
-- "Bagaimana penanganan keselamatan, jika terjadi insident di Sekolah?"
-- "SOP apa yang dilakukan oleh perusahaan untuk menangani komplain dari orang tua?"
-- "Apa sanksi bagi karyawan yang melakukan gratifikasi?"
-- "Bagaimana prosedur pengajuan cuti bagi karyawan?"
+"**Example questions you can ask:**"
+- "What will students have after graduating?"
+- "How is safety handled if an incident occurs at school?"
+- "What are the procedures for handling complaints from parents?"
+
+"**Contoh pertanyaan dalam Bahasa Indonesia:**"
+- "Apa yang akan didapatkan siswa setelah lulus?"
+- "Bagaimana penanganan keamanan jika terjadi insiden di sekolah?"
+- "Apa prosedur penanganan pengaduan dari orang tua?"
 
 ## Deployment ke Streamlit Community Cloud
 
