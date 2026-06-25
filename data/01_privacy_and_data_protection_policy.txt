@@ -1,0 +1,44 @@
+=== KEBIJAKAN PRIVASI DAN PERLINDUNGAN DATA ===
+Yayasan Edukasi Merakyat
+Berlaku Efektif: 1 Januari 2025
+
+BAB I - KETENTUAN UMUM
+
+Pasal 1: Definisi
+1. Data Pribadi adalah setiap data tentang seseorang yang teridentifikasi atau dapat diidentifikasi secara tersendiri atau dikombinasi dengan informasi lainnya, baik secara langsung maupun tidak langsung, melalui sistem elektronik atau nonelektronik.
+2. Pengendali Data Pribadi adalah Yayasan Edukasi Merakyat sebagai pihak yang menentukan tujuan dan mengendalikan pemrosesan data pribadi.
+3. Pemrosesan Data Pribadi adalah setiap tindakan atau rangkaian tindakan yang dilakukan terhadap Data Pribadi, termasuk pengumpulan, penggunaan, pengungkapan, dan penghapusan.
+
+Pasal 2: Ruang Lingkup
+Kebijakan ini berlaku untuk seluruh karyawan, mitra kerja, klien, dan peserta didik yang menggunakan layanan Yayasan Edukasi Merakyat.
+
+BAB II - PRINSIP PENGELOLAAN DATA
+
+Pasal 3: Prinsip Dasar
+1. Keterbatasan Tujuan - Data hanya dikumpulkan untuk tujuan spesifik yang sah.
+2. Keadilan dan Legalitas - Pemrosesan data dilakukan sesuai dengan ketentuan peraturan perundang-undangan yang berlaku.
+3. Akurasi - Data yang dikelola harus akurat, lengkap, dan terkini.
+4. Keamanan - Data dilindungi dengan langkah-langkah keamanan teknis dan organisasi yang memadai.
+5. Akuntabilitas - Pengendali data bertanggung jawab atas kepatuhan terhadap prinsip-prinsip ini.
+
+BAB III - HAK SUBJEK DATA
+
+Pasal 4: Hak Subjek Data
+Setiap subjek data memiliki hak:
+1. Hak untuk mengakses data pribadinya
+2. Hak untuk memperbaiki data yang tidak akurat
+3. Hak untuk menghapus data (right to be forgotten)
+4. Hak untuk membatasi pemrosesan
+5. Hak untuk memindahkan data (data portability)
+6. Hak untuk menarik persetujuan
+
+BAB IV - KEWAJIBAN PENGENDALI DATA
+
+Pasal 5: Kewajiban Pengendali Data
+1. Melakukan notifikasi pelanggaran data kepada subjek data dan otoritas terkait paling lambat 72 jam setelah mengetahui adanya pelanggaran.
+2. Menunjuk petugas perlindungan data (Data Protection Officer/DPO).
+3. Melakukan penilaian dampak perlindungan data untuk pemrosesan berisiko tinggi.
+4. Menyimpan catatan kegiatan pemrosesan data.
+
+Pasal 6: Sanksi Pelanggaran
+Pelanggaran terhadap kebijakan ini dapat dikenakan sanksi administratif berupa teguran tertulis, denda administratif, hingga pemutusan hubungan kerja sesuai dengan peraturan perundang-undangan yang berlaku.

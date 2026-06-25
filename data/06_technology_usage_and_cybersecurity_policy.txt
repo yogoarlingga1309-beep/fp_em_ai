@@ -1,0 +1,77 @@
+=== KEBIJAKAN PENGGUNAAN TEKNOLOGI DAN KEAMANAN SIBER ===
+Yayasan Edukasi Merakyat
+Berlaku Efektif: 1 Januari 2025
+
+BAB I - KETENTUAN UMUM
+
+Pasal 1: Definisi
+1. Sistem Informasi adalah kumpulan perangkat keras, perangkat lunak, dan sumber daya manusia yang digunakan untuk mengolah dan menyebarkan informasi.
+2. Keamanan Siber adalah upaya untuk melindungi sistem informasi, jaringan, dan data dari serangan siber.
+3. Data Elektronik adalah informasi yang dibuat, dikirim, atau disimpan dalam bentuk elektronik.
+
+Pasal 2: Tujuan
+Kebijakan ini bertujuan untuk mengatur penggunaan teknologi informasi dan menjamin keamanan siber di lingkungan Yayasan Edukasi Merakyat.
+
+BAB II - PENGGUNAAN PERANGKAT DAN JARINGAN
+
+Pasal 3: Penggunaan Perangkat
+1. Perangkat kerja (komputer, tablet, dan smartphone) hanya boleh digunakan untuk keperluan dinas.
+2. Penggunaan perangkat pribadi untuk keperluan dinas harus mendapat izin dari atasan dan mematuhi kebijakan BYOD (Bring Your Own Device).
+3. Perangkat wajib dilindungi dengan password atau biometrik yang kuat dan diganti secara berkala.
+
+Pasal 4: Penggunaan Jaringan
+1. Jaringan perusahaan hanya boleh diakses oleh karyawan yang memiliki otorisasi.
+2. Penggunaan Wi-Fi publik untuk akses data perusahaan dilarang kecuali menggunakan VPN (Virtual Private Network) yang disetujui.
+3. Penggunaan bandwidth untuk aktivitas non-dinas (streaming, gaming, download konten ilegal) dilarang.
+
+BAB III - KEAMANAN DATA DAN INFORMASI
+
+Pasal 5: Klasifikasi Data
+1. Data Publik - Data yang dapat diakses oleh publik tanpa batasan.
+2. Data Internal - Data yang hanya dapat diakses oleh karyawan tertentu.
+3. Data Rahasia - Data yang sangat sensitif dan hanya dapat diakses oleh pihak yang berwenang.
+4. Data Sangat Rahasia - Data yang memerlukan perlindungan tertinggi, seperti informasi keuangan dan data pribadi peserta didik.
+
+Pasal 6: Perlindungan Data
+1. Data dengan klasifikasi rahasia dan sangat rahasia wajib dienkripsi.
+2. Backup data dilakukan secara rutin minimal setiap hari.
+3. Data disimpan di server yang memiliki sistem keamanan berlapis (firewall, IDS/IPS, antivirus).
+
+BAB IV - AKSES DAN OTORISASI
+
+Pasal 7: Manajemen Akses
+1. Setiap karyawan memiliki hak akses sesuai dengan jabatan dan kebutuhan pekerjaan.
+2. Hak akses dievaluasi dan ditinjau kembali setiap 6 bulan sekali.
+3. Hak akses dicabut segera setelah karyawan berhenti bekerja.
+
+Pasal 8: Autentikasi
+1. Semua akun wajib menggunakan autentikasi multifaktor (MFA) untuk akses ke sistem penting.
+2. Password minimal 12 karakter dan mengandung kombinasi huruf, angka, dan simbol.
+3. Password wajib diganti setiap 90 hari.
+
+BAB V - PENCEGAHAN SERANGAN SIBER
+
+Pasal 9: Ancaman Siber
+1. Karyawan dilarang membuka tautan mencurigakan atau lampiran dari sumber yang tidak dikenal.
+2. Perusahaan melakukan pelatihan kesadaran keamanan siber secara rutin.
+3. Perusahaan menggunakan sistem deteksi dan pencegahan intrusi.
+
+Pasal 10: Insiden Keamanan
+1. Setiap insiden keamanan (malware, phishing, peretasan) wajib dilaporkan ke tim IT dalam waktu 1 jam.
+2. Tim IT akan melakukan investigasi dan tindakan pemulihan.
+3. Insiden signifikan wajib dilaporkan kepada pihak berwenang sesuai dengan peraturan yang berlaku.
+
+BAB VI - PENGGUNAAN MEDIA SOSIAL
+
+Pasal 11: Media Sosial
+1. Karyawan dilarang membagikan informasi rahasia perusahaan di media sosial.
+2. Karyawan yang membagikan konten terkait perusahaan harus mencantumkan disclaimer bahwa pendapat tersebut adalah pribadi.
+3. Penggunaan media sosial selama jam kerja dibatasi untuk keperluan yang berkaitan dengan pekerjaan.
+
+BAB VII - KETENTUAN PENUTUP
+
+Pasal 12: Sanksi
+Pelanggaran terhadap kebijakan ini akan dikenakan sanksi sesuai dengan tingkat pelanggaran.
+
+Pasal 13: Mulai Berlaku
+Kebijakan ini berlaku efektif sejak tanggal ditetapkan.
