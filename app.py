@@ -17,13 +17,13 @@ from rag_pipeline import build_rag_pipeline
 
 # ── Konfigurasi Halaman ────────────────────────────────────────────────
 st.set_page_config(
-    page_title="Edukasi Merakyat (EM_Rules) AI",
+    page_title="Edukasi Merakyat (EM_Rules_Assistant)",
     page_icon="📝",
     layout="centered"
 )
 
 # ── Header ─────────────────────────────────────────────────────────────
-st.title("📝 EM_Rules AI")
+st.title("📝 EM_Rules_Assistant")
 st.caption(
     "AI assistant for compliance team at Edukasi Merakyat Foundation,\n\n"    
     "Answering questions about internal policies and procedures."

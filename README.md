@@ -1,4 +1,4 @@
-# EM_Rules
+# EM_Rules_Assistant
 
 An AI chatbot for compliance teams that helps answer questions about foundation/school policies, regulations, and internal procedures. Built using RAG (Retrieval-Augmented Generation) technology with LangChain.
 
